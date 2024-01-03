@@ -12,7 +12,7 @@ gsap.fromTo('.watch__content', { opacity: 1 }, {
     scrollTrigger: {
         trigger: '.watch__content',
         start: 'center',
-        end: '1000',
+        end: '750',
         scrub: true
     }
 })
@@ -25,7 +25,7 @@ let itemsL = gsap.utils.toArray('.models__item')
 			opacity: 1, x: 0,
 			scrollTrigger: {
 				trigger: item,
-				start: '-1000',
+				start: '-750',
 				end: '-100',
 				scrub: true
 			}

@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+} */
+
 a {
     text-decoration: none;
     color: inherit;
@@ -21,10 +27,8 @@ h6 {
 }
 
 body {
-    background-image: url(../images/teksture.jpg);
-    background-repeat: no-repeat;
+    background: url(../images/green.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-position: bottom center;
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -71,6 +75,7 @@ body {
     font-size: 250px;
     font-weight: 300;
     line-height: normal;
+    text-shadow: 2px 2px 4px rgba(206, 198, 198, 0.5);
 }
 
 .watch__buy {
@@ -95,6 +100,7 @@ body {
     font-weight: 300;
     background-color: #161515;
     padding: 35px 75px;
+    border-radius: 15px;
 
 }
 
