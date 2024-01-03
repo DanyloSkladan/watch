@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+body {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.watch__content {
+    display: flex;
+}
+
+
+.watch__text {
+    align-self: center;
+}
+
+/* .watch__text p {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+} */
+
+.watch__num {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+
+.watch__dscr {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 50px;
+    max-width: 570px;
+    padding-bottom: 81px;
+    position: relative;
+}
+
+
+.title {
+    color: #272727;
+    font-size: 250px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.watch__buy {
+    position: absolute;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.watch__buy span {
+    color: #272727;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+
+.watch__btn {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    background-color: #161515;
+    padding: 35px 75px;
+
+}
+
+
+.watch__img {
+    margin-left: 60px;
+}
