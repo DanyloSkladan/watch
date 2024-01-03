@@ -21,7 +21,10 @@ h6 {
 }
 
 body {
-    /* font-family: 'Inter', sans-serif; */
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -136,7 +139,7 @@ body {
 }
 
 .models__descr {
-    color:#161515;
+    color: #161515;
     display: inline-block;
     text-align: center;
     font-size: 32px;
