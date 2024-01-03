@@ -27,10 +27,10 @@ h6 {
 }
 
 body {
-    background: url(../images/green.jpg) no-repeat center center fixed;
+    background: url(../images/stena.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'League Spartan', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .rain{
@@ -79,11 +79,11 @@ body {
 
 
 .title {
-    color: #272727;
+    color: #faf8f8;
     font-size: 250px;
     font-weight: 300;
     line-height: normal;
-    text-shadow: 4px 2px 20px rgba(206, 198, 198, 0.5);
+    text-shadow: 0px 0px 43px rgba(206, 198, 198, 0.5);
 }
 
 .watch__buy {
@@ -110,7 +110,7 @@ body {
     background-color: #161515;
     padding: 35px 75px;
     border-radius: 15px;
-    box-shadow: 10px 10px 8px rgba(12, 12, 12, 0.5);
+    box-shadow: 0px 0px 6px #fff;
 }
 
 
