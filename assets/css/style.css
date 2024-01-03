@@ -30,6 +30,7 @@ body {
     background: url(../images/green.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'League Spartan', sans-serif;
+    overflow: hidden;
 }
 
 .rain{
