@@ -32,6 +32,10 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+.rain{
+    position: absolute;
+    z-index: -1;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -60,13 +64,14 @@ body {
 }
 
 .watch__dscr {
-    color: #161515;
+    color: #989898;
     font-size: 32px;
     font-weight: 300;
     line-height: 50px;
     max-width: 570px;
     padding-bottom: 81px;
     position: relative;
+    text-shadow: 5px 4px 2px rgba(12, 12, 12, 0.5)
 }
 
 
@@ -75,7 +80,7 @@ body {
     font-size: 250px;
     font-weight: 300;
     line-height: normal;
-    text-shadow: 2px 2px 4px rgba(206, 198, 198, 0.5);
+    text-shadow: 4px 2px 20px rgba(206, 198, 198, 0.5);
 }
 
 .watch__buy {
@@ -86,11 +91,12 @@ body {
 }
 
 .watch__buy span {
-    color: #272727;
+    color: #989898;
     text-align: center;
     font-size: 32px;
     font-weight: 300;
     line-height: 60px;
+    text-shadow: 4px 2px 20px rgba(12, 12, 12, 0.5);
 }
 
 
@@ -107,7 +113,9 @@ body {
 
 .watch__img {
     margin-left: 60px;
+
 }
+
 
 
 .models__item {
