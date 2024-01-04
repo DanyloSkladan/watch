@@ -43,6 +43,43 @@ body {
     padding: 0 15px;
 }
 
+.logo{
+    color: #FFF;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #989898;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 50px;
+}
+
+.menu__link:hover{
+    color: #FFF;
+}
+
+.menu__btn{
+    color: #FFF;
+    padding: 8px 15px;
+    background-color: #161515;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px #fff;
+    transition: color 0.4s ease-in-out, box-shadow 0.3s ease-in-out ;
+}
+
+.menu__btn:hover{
+    color: #989898;
+    box-shadow: 0px 0px 7px #fff;;
+}
+
 .watch__content {
     display: flex;
 }
@@ -111,8 +148,14 @@ body {
     padding: 35px 75px;
     border-radius: 15px;
     box-shadow: 0px 0px 6px #fff;
+    transition: color 0.4s ease-in-out, box-shadow 0.5s ease-in-out;
+    
 }
 
+.watch__btn:hover{
+    color: #989898;
+    box-shadow: 0px 0px 10px #fff;
+}
 
 .watch__img {
     margin-left: 60px;
