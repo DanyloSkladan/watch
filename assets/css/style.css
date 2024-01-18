@@ -33,21 +33,22 @@ body {
     /* overflow: hidden; */
 }
 
-.rain{
+.rain {
     position: absolute;
     z-index: -1;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.logo{
+.logo {
     color: #FFF;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,31 +58,31 @@ body {
     margin-top: 20px;
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     gap: 50px;
 }
 
-.menu__link:hover{
+.menu__link:hover {
     color: #FFF;
 }
 
-.menu__button{
+.menu__button {
     position: relative;
     display: inline-block;
 }
 
-.menu__btn{
+.menu__btn {
     color: #FFF;
     padding: 8px 15px;
     background-color: #161515;
     border: none;
     border-radius: 7px;
     box-shadow: 0px 0px 4px #fff;
-    transition: color 0.4s ease-in-out, box-shadow 0.3s ease-in-out ;
+    transition: color 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.menu__content{
+.menu__content {
     display: none;
     position: absolute;
     text-align: center;
@@ -89,7 +90,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 10px 24px -11px#fff;
     border-radius: 10px;
-    z-index: 1;    
+    z-index: 1;
 }
 
 .menu__content a {
@@ -99,16 +100,16 @@ body {
     display: block;
 }
 
-.menu__content a:hover{
+.menu__content a:hover {
     background-color: #000;
 }
 
-.menu__btn:hover{
+.menu__btn:hover {
     color: #989898;
     box-shadow: 0px 0px 7px #fff;
 }
 
-.menu__button:hover .menu__content{
+.menu__button:hover .menu__content {
     display: block;
 }
 
@@ -181,10 +182,10 @@ body {
     border-radius: 15px;
     box-shadow: 0px 0px 6px #fff;
     transition: color 0.4s ease-in-out, box-shadow 0.5s ease-in-out;
-    
+
 }
 
-.watch__btn:hover{
+.watch__btn:hover {
     color: #989898;
     box-shadow: 0px 0px 10px #fff;
 }
@@ -194,30 +195,43 @@ body {
 
 }
 
-.models{
+.models {
     margin-top: 300px;
     margin-bottom: 250px;
-}
-
-.models__content{
- 
-}
-
-.models__text p{
-    color: #989898;
+    background-color: #161515;
 }
 
 .models__title{
     color: #faf8f8;
-    font-size: 100px;
+    padding-top: 30px;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.models__text{
+    text-align: center;
+}
+
+.models__text p{
+    color: #faf8f8;
+    font-size: 24px;
     font-weight: 300;
-    line-height: normal;
-    text-shadow: 0px 0px 43px rgba(206, 198, 198, 0.5);
+    padding-bottom: 24px;
 }
 
-.models__slide{
+.models__description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.models__descr{
+    color: #989898;
     
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 50px;
+    max-width: 500px;
 }
-
-
 
