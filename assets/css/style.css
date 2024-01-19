@@ -248,6 +248,7 @@ body {
     color: #989898;
     display: inline-block;
     position: relative;
+    text-align: center;
     font-size: 32px;
     font-weight: 300;
     line-height: 50px;
@@ -263,6 +264,44 @@ body {
     width: 70%;
     margin-top: 35px;
     
+    
+}
+
+
+.silver{
+    margin-bottom: 150px;
+}
+
+
+.descr__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161515;
+    
+    border-radius: 15px;
+
+}
+
+
+.descr__title{
+    color: #989898;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.descr__text{
+    
+    text-align: center;
+    color: #989898;
+    
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 24px;
+    line-height: 40px;
+    max-width: 500px;
     
 }
 
