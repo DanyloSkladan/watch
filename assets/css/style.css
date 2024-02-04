@@ -36,12 +36,14 @@ body {
 .rain {
     position: absolute;
     z-index: -1;
+   
 }
 
 .header{
     background-color: #161515;
     padding: 13px 0px;
     margin-bottom: 20px;
+    border-bottom: 1px solid #989898;
 }
 
 .container {
@@ -204,6 +206,8 @@ body {
     margin-top: 300px;
     margin-bottom: 200px;
     background-color: #161515;
+    border-top: 1px solid #989898;
+    border-bottom: 1px solid #989898;
 }
 
 .models__title{
@@ -272,13 +276,16 @@ body {
     margin-bottom: 150px;
 }
 
+.description{
+    margin-bottom: 250px;
+}
 
 .descr__content{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #161515;
-    
+    border: 1px solid #989898;
     border-radius: 15px;
 
 }
@@ -288,8 +295,19 @@ body {
     color: #989898;
     font-size: 32px;
     font-weight: 400;
-    padding-bottom: 24px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     text-align: center;
+}
+
+.descr__title::after{
+    content:'';
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #989898 ;
+    left: -5%;
+    width: 110%;
+    margin-top: 10px;
 }
 
 .descr__text{
@@ -306,6 +324,58 @@ body {
 }
 
 
+.form {
+    display: flex;
+    max-width: 100%;
+     background-color: rgb(22, 21, 21, 0.7);
+    
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+/* .contacts-form {
+
+   
+} */
+
+.contacts-form p{
+    width: 100%;
+    color: #989898;
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.contacts-input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #989898;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: rgb(22, 21, 21, 0.7);
+  }
+
+.contacts-title {
+    padding: 20px 0px 10px;
+    color: #faf8f8;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: normal;
+    text-shadow: 0px 0px 43px rgba(206, 198, 198, 0.5);
+
+}
+
+.contacts-form button {
+    border: 1px solid #989898;
+   text-transform: uppercase;
+   color:#989898;
+   background-color: #161515;
+   border-radius: 15px;
+   padding: 16px 91px;
+   font-weight: 400;
+   cursor: pointer;
+}
 
 
 
